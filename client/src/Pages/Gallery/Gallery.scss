@@ -1,0 +1,258 @@
+// ПЕРВЫЙ БЛОК
+.GallerySectionOne {
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/dogcat.jpg"), no-repeat center fixed;
+  height: 964px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+
+  .MainTitle {
+    margin: 0;
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Roboto, "Fira Code Medium", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    padding-top: 350px;
+  }
+
+  .StyleForTitle {
+    display: flex;
+    color: white;
+    align-content: center;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.GallerySectionOneTwo {
+  height: 1024px;
+  background: #E5E5E5;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding-top: 50px;
+
+  img {
+    height: 480px;
+    width: 480px;
+    //border-radius: 250px;
+    padding: 25px;
+  }
+}
+
+// ВТОРОЙ БЛОК
+.GallerySectionTwo {
+  background-color: #E5E5E5;
+  height: 1024px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  overflow: auto;
+
+  .WrapperForImgCircular {
+    display: flex;
+  }
+
+  // Левая часть с текстом и маленькими фотографиями
+  .WrapperLeft {
+    .MainTitleForGallerySectionTwo {
+      width: 645px;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 42px;
+      line-height: 61px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .LineForTitle {
+      width: 645px;
+      height: 3px;
+      border-radius: 10px;
+      background-color: #000000;
+    }
+
+    .TextBlockAboutUs {
+      font-family: Montserrat, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 24px;
+      line-height: 49px;
+      display: flex;
+      align-items: center;
+      width: 600px;
+      height: 365px;
+      margin-left: 25px;
+    }
+
+    .Circular {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+      border-radius: 100px;
+      margin: 18px;
+
+      img {
+        height: 170px;
+        width: 170px;
+        box-sizing: border-box;
+        border-radius: 100px;
+        border: solid 3px black;
+      }
+    }
+  }
+
+  //.infoOne {
+  //  height: 500px;
+  //  width: 500px;
+  //  background: #ffffff;
+  //  border-radius: 50px;
+  //  text-align: center;
+  //  display: none;
+  //
+  //  h1 {
+  //    font-family: Montserrat;
+  //    font-style: normal;
+  //    font-weight: bold;
+  //    font-size: 25px;
+  //    line-height: 55px;
+  //    text-align: center;
+  //    color: #000000;
+  //    padding-top: 50px;
+  //  }
+  //
+  //  p {
+  //    font-family: Montserrat;
+  //    font-style: normal;
+  //    font-weight: 500;
+  //    font-size: 25px;
+  //    line-height: 51px;
+  //    display: flex;
+  //    align-items: center;
+  //    color: #000000;
+  //    padding: 6px 25px 25px;
+  //  }
+  //}
+
+  .Circular:hover .infoOne {
+   display: block;
+  }
+
+  // Правая часть с Большой Фотографией
+  .WrapperRight {
+    .WrapperForBigPicture {
+      height: 700px;
+      width: 700px;
+      margin-top: 190px;
+    }
+
+    img {
+      height: 650px;
+      width: 650px;
+      border-radius: 20px;
+    }
+  }
+}
+
+// ТРЕТИЙ БЛОК С ТРЕМЯ ФОТКАМИ
+.GallerySectionThree {
+  background-color: #E5E5E5;
+  height: 1024px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+
+  .MainPicture {
+    img {
+      height: 1024px;
+      width: 930px;
+      border-radius: 50px;
+    }
+  }
+
+  .SecondPicture {
+    img {
+      height: 500px;
+      width: 500px;
+      border-radius: 50px;
+      margin: 10px;
+    }
+  }
+}
+
+// ЧЕТВЕРТЫЙ БЛОК
+.GallerySectionFour {
+  background-color: #E5E5E5;
+  height: 1024px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+
+  .VerticalLine {
+    width: 512px;
+    height: 0px;
+    border: 5px solid #000000;
+    transform: rotate(90deg);
+  }
+
+  .WrapperForTitleAboutInstagram {
+    width: 500px;
+    margin-left: 100px;
+  }
+
+  .AboutInstagram {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 63px;
+    display: flex;
+    align-items: center;
+  }
+
+  //Картирка и кнопка
+  .WrapperForInstImgAndButton {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
+  //Кнопка
+  .instbutton {
+    margin-top: 30px;
+    height: 80px;
+    width: 420px;
+    border-radius: 40px;
+    border-color: red;
+    color: #E5E5E5;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    color: #000000;
+  }
+}
+
+// Animation
+
+

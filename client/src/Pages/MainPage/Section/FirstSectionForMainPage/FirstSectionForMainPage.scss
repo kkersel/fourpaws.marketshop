@@ -1,0 +1,33 @@
+.articleWrapper {
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../../../images/dogcat.jpg"), center no-repeat fixed;
+  height: 964px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .FirstArticle {
+    margin: 0;
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Roboto, "Fira Code Medium", sans-serif;
+    font-style: normal;
+  }
+
+  .SecondArticle {
+    width: 588px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    color: #FFFFFF;
+    margin: auto;
+  }
+}

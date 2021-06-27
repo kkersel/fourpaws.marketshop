@@ -1,0 +1,48 @@
+.containerWrapper {
+  height: 300px;
+  background-color: #303030;
+
+  .Wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .MessengersLinks {
+      margin-top: 20px;
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      ul {
+        display: flex;
+        justify-content: center;
+        li {
+          padding: 15px;
+        }
+        // Ссылки с иконками
+        img {
+          height: 80px;
+          width: 80px;
+        }
+      }
+    }
+
+    .Menu {
+      font-size: 40px;
+    }
+
+    h1 {
+      color: #E5E5E5;
+      font-size: 25px;
+      font-family: Montserrat, sans-serif;
+    }
+
+    ul {
+      text-decoration: none;
+      list-style: none;
+      .linkStyle, a {
+          text-decoration: none;
+          color: white;
+        }
+    }
+  }
+}

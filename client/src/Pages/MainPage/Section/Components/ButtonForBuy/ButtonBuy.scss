@@ -1,0 +1,17 @@
+.ButtonBuy {
+  background: #8CEEBF;
+  color: #000000;
+  width: 335px;
+  height: 68px;
+  border-radius: 220px;
+  transition: 0.5s;
+  overflow: hidden;
+  outline: 0;
+  border: none;
+  font-size: 35px;
+  font-family: Montserrat, sans-serif;
+  &:hover{
+    background: #47ab7b;
+    cursor: pointer;
+  }
+}

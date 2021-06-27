@@ -1,0 +1,29 @@
+{
+  "name": "dogcat",
+  "version": "1.0.0",
+  "description": "MERN-STACK",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\""
+  },
+  "author": "SOLOVEV ALEXANDR x.innv1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.13",
+    "npm": "^7.17.0"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "nodemon": "^2.0.7"
+  }
+}

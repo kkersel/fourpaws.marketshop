@@ -1,0 +1,84 @@
+.SingIn {
+  height: 965px;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; // Прозрачность
+  transition: 0.5s; //Анимация появления окна
+  pointer-events: none;
+}
+
+.SingIn.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.SingInInner {
+  padding: 20px;
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  transform: scale(0.5);
+  transition: 0.4s all;
+  border-radius: 40px;
+  border: 2px solid black;
+}
+
+.SingInInner.active {
+  transform: scale(1);
+  border-radius: 90px;
+}
+
+.inBlock {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  margin-top: 50px;
+  font-size: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  .formInBlock {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inputInBlock {
+    border-radius: 20px;
+    height: 30px;
+    width: 200px;
+    border-style: none;
+    margin: 10px;
+  }
+}
+
+
+.EnterTitle {
+  font-family: Montserrat, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.Button {
+  width: 200px;
+  height: 50px;
+  background: #8CEEBF;
+  border-radius: 40px;
+  border-style: none;
+  transition: 0.5s;
+  margin: 10px;
+  &:hover {
+    background: #29b772;
+    cursor: pointer;
+  }
+}

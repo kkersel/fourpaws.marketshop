@@ -1,0 +1,69 @@
+.WrapperConstructor {
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/dogcat.jpg"), center no-repeat fixed;
+  height: 1024px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+
+  .MainTitleConstructor {
+    margin: 0;
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Roboto, "Fira Code Medium", sans-serif;
+    font-style: normal;
+  }
+
+  // Блок с выбором заготовок
+
+  .BlockForChoose {
+    background: #ffffff;
+    width: 1000px;
+    height: 350px;
+    border-radius: 40px;
+
+    .btn {
+      border: none;
+      background: #ffffff;
+      cursor: pointer;
+    }
+
+    // Текстовый блок "Выберите макет"
+    .TitleForChoose {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 39px;
+      color: #000000;
+      margin-top: 35px;
+      text-decoration: none;
+    }
+
+    // Обложка для выравнивания картинок по центру родительского блока
+    // Картинки с заготовками от 1 до 3
+    .WrapperForImages {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+
+      .gridOne img {
+        height: 160px;
+        width: 160px;
+      }
+      .gridTwo img {
+        height: 92px;
+        width: 160px;
+      }
+      .gridThree img {
+        height: 120px;
+        width: 120px;
+      }
+    }
+  }
+}

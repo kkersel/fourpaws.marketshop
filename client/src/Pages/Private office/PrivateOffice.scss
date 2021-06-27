@@ -1,0 +1,111 @@
+.WrapForPrivateOffice {
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/dogcat.jpg"), center fixed;
+  height: 1024px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+
+// Гланый заголовок "Личный кабинет"
+.FirstArticle {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  color: #ffffff;
+  font-size: 72px;
+  font-style: normal;
+}
+
+.WrapFlex {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  // Блок который отображает в себе коризну и заказы. ( Решил сделать как компоненту )
+  //.ViewBlock {
+  //  height: 520px;
+  //  width: 650px;
+  //  border-radius: 50px;
+  //  border: solid 1px black;
+  //  background: #ffffff;
+  //}
+
+  // Блок Аватарки с Менюшкой
+  .AvatarMenu {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    // Ава и номер телефона
+    .AvatarNumber {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 50px;
+
+      img {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px;
+        border: solid 1px black;
+      }
+
+      // Номер телефона залогиненого пользователя
+      .Number {
+        width: 300px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        color: #FFFFFF;
+      }
+    }
+    // Меню: Корзина Мои заказы Выход
+    .Menu {
+      height: 250px;
+      width: 400px;
+      background: white;
+      border: solid 1px black;
+      border-radius: 50px;
+      display: flex;
+      flex-flow: column;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+
+      // Стиль для ссылок
+      .linkStyle  {
+        font-family: Roboto sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 29px;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+      }
+
+      .btnStyleForMenu {
+        height: 40px;
+        width: 100px;
+        border-radius: 20px;
+        background-color: #8CEEBF;
+        margin: 5px;
+        border: 1px solid black;
+        transition: 0.5s;
+        cursor: pointer;
+
+        &:hover {
+          background: #47ab7b;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+.WrapperOffer {
+  background: linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/dogcat.jpg"), no-repeat center fixed;
+  height: 1024px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  // Главный заголовок " Оформление заказа ".
+  .MainTitleOffer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 88px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+
+    color: #ffffff;
+  }
+
+  .WrapperDiv {
+    height: 1300px;
+    width: 1250px;
+    border-radius: 40px 40px 0px 0px;
+    border: 2px solid black;
+    background: #ffffff;
+
+
+    // Первый и второй блок в линию
+    .OneTwo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+
+      // Куда доставить?
+      .One {
+        height: 200px;
+        width: 500px;
+
+        .InOne {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+
+          .InputOne {
+            height: 30px;
+            width: 400px;
+            margin: 5px 0 0 0;
+            border: 1px solid black;
+            padding: 2px 5px 0px 5px;
+          }
+        }
+      }
+
+
+      // Способ доставки
+      .Two {
+        height: 200px;
+        width: 500px;
+
+        .InTwo {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+
+          .DeliveryRadio {
+            input {
+              display: none;
+            }
+            label {
+              height: 35px;
+              width: 400px;
+              color: gray;
+              display: flex;
+              align-items: center;
+              border: 1px solid black;
+              margin: 5px 0 0 0;
+              padding-left: 5px;
+            }
+          }
+        }
+      }
+    }
+
+
+    // Третий и четверый блок в линию
+    .ThreeFour {
+      display: flex;
+      justify-content: center;
+
+      // Способ оплаты
+      .Three {
+        height: 300px;
+        width: 500px;
+
+        .InThree {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+
+          .PayBox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 125px;
+            width: 400px;
+            border: solid 1px black;
+          }
+        }
+      }
+
+      // Информация о покупателе
+      .Four {
+        height: 300px;
+        width: 500px;
+
+        .InFour {
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+
+          .InputFour {
+            height: 30px;
+            width: 400px;
+            margin: 5px 0 0 0;
+            border: 1px solid black;
+            padding: 2px 5px 0px 5px;
+          }
+        }
+      }
+    }
+
+    .TitleInDiv {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 42px;
+      line-height: 51px;
+    }
+
+
+    .WrapperForBasket {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+    }
+
+    // Коризна
+    .Basket {
+      height: 400px;
+      width: 450px;
+      border: solid 2px black;
+      border-radius: 50px;
+
+      .Grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .BasketLine {
+        //display: flex;
+        //align-items: center;
+        //justify-content: center;
+      }
+      .Pay {
+        width: 350px;
+        height: 60px;
+        background: #8CEEBF;
+        color: black;
+        border-radius: 40px;
+        font-size: 24px;
+        border-style: none;
+      }
+    }
+  }
+}
+
+section {
+  height: 550px;
+  width: 100%;
+  background-color: #C4C4C4;
+}
+

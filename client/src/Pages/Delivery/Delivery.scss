@@ -1,0 +1,56 @@
+.DeliveryWrapper {
+  background: no-repeat linear-gradient(0deg, rgba(15, 15, 15, 0.5), rgba(15, 15, 15, 0.5)), url("../images/dogcat.jpg"), center no-repeat fixed;
+  height: 964px;
+  width: 100%;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  display: block;
+
+  .MainTitleDelivery {
+    padding-top: 69px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 72px;
+    font-family: Roboto, "Fira Code Medium", sans-serif;
+    font-style: normal;
+  }
+
+  .DeliveryWrapperForBlock {
+    display: flex;
+    .DeliveryWhiteBlock {
+      margin: 0 auto;
+      height: 615px;
+      width: 590px;
+      background-color: #FFFFFF;
+      border-radius: 40px;
+
+      .TitleInBlockDelivery {
+        padding: 20px;
+        margin: 0 auto;
+        font-family: Roboto, "Fira Code Medium", sans-serif;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: normal;
+        display: block;
+        text-align: center;
+        align-items: center;
+      }
+
+      .TextInBlockDelivery {
+        width: 410px;
+        padding: 20px;
+        margin-left: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 37px;
+        align-items: center;
+        text-align: start;
+
+        color: #000000;
+      }
+    }
+  }
+}

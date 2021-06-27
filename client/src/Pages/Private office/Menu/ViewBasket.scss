@@ -1,0 +1,40 @@
+.AddOffer {
+    width: 350px;
+    height: 60px;
+    background: #8CEEBF;
+    color: black;
+    border-radius: 40px;
+    font-size: 24px;
+    border-style: none;
+    transition: 0.5s;
+    &:hover {
+      background: #137C49FF;
+      transition: .5s;
+      cursor: pointer;
+    }
+}
+
+.ViewMyOrders {
+  height: 520px;
+  width: 650px;
+  border-radius: 50px;
+  border: solid 1px black;
+  background: #ffffff;
+
+
+  .TitleInMyOrders{
+    /* Мои заказы */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 51px;
+    color: #000000;
+  }
+
+  .clearTable {
+    display: flex;
+    justify-content: center;
+
+  }
+}
