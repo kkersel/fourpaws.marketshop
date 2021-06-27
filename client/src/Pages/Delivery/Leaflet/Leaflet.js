@@ -39,7 +39,7 @@ export const MapLeaflet = () => {
                     <Popup
                     autoPanPadding={{}}
                     >
-                        Самовывоз отсюда!
+                        Самовывоз отсюда!!
                     </Popup>
                 </Marker>
             </MapContainer>
